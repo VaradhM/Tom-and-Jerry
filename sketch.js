@@ -23,7 +23,7 @@ function draw() {
   
   
 
-  if(fixedRect.x - tom.x < jerry.width/2 + tom.width/2
+  if(jerry.x - tom.x < jerry.width/2 + tom.width/2
     && tom.x - jerry.x < tom.width/2 + jerry.width/2){
       tom.velocityX = tom.velocityX *(-1);
       jerry.velocityX = jerry.velocityX *(-1);
