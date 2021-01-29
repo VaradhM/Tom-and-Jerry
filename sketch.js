@@ -4,6 +4,8 @@ function preload(){
   
   tomImage = loadImage("tomOne.png");
   jerryImage = loadImage("jerryOne.png");
+  tomMoving = loadAnimation("tomOne.png","tomTwo.png","tomeThree.png","tomFour.png");
+  jerryTease = loadAnimation("jerryOne.png","jerryTwo.png","jerryThree.png")
 }
 
 function setup() {
